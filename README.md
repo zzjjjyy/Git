@@ -9,8 +9,11 @@
 ## 快速开始
 
 ```bash
+# SSH 方式（本机已配置该仓库的部署密钥）
+git clone git@github.com:zzjjjyy/Git.git
+
+# HTTPS 方式（需要能访问 github.com:443）
 git clone https://github.com/zzjjjyy/Git.git
-cd Git
 ```
 
 ## 目录结构
@@ -18,6 +21,14 @@ cd Git
 ```text
 Git/
 └── README.md
+```
+
+## 提交与推送
+
+```bash
+git add -A
+git commit -m "your message"
+git push
 ```
 
 ## 许可
